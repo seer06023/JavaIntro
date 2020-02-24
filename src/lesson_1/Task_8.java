@@ -13,6 +13,5 @@ public class Task_8 {
 
         double result = Math.max((Math.min(a, b)), (Math.min(c, d)));
         System.out.println("Result = " + result);
-
     }
 }
