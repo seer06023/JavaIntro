@@ -1,14 +1,22 @@
-package lesson_1;
+package by.example.basic;
+
+/*
+Для данной области составить линейную программу, которая печатает true,
+если точка с координатами (х, у) принадлежит закрашенной области,
+и false — в противном случае:
+*/
 
 import java.time.temporal.ValueRange;
 import java.util.Scanner;
 
-public class Task_6 {
+public class LinearTask6 {
     public static void main(String[] args) {
         System.out.println("Enter coordinates (x, y):");
         Scanner in = new Scanner(System.in);
+
         long x = in.nextLong();
         long y = in.nextLong();
+
         ValueRange xup = ValueRange.of(-2, 2);
         ValueRange yup = ValueRange.of(0, 4);
 
