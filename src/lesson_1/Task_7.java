@@ -14,7 +14,6 @@ public class Task_7 {
         } else System.out.println("1. False");
         if (a==90 || b==90 || a+b==90){
             System.out.println("2. True");
-        }
-        else System.out.println("2. False");
+        } else System.out.println("2. False");
     }
 }
